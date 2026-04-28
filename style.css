@@ -1,0 +1,29 @@
+html, body {
+  color:whitesmoke;
+  font-family: "Helvetica";
+  background: darkseagreen;
+  font-size:12px;
+}
+
+button {
+  background:powderblue;
+  color: whitesmoke;
+  border-radius:30px;
+  border-width:1px;
+  border-style: none;
+  font-size:12px;
+  height: 23px;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+input {
+  background:transparent;
+  border-width:1px;
+  border-style:dashed;
+  border-radius:30px;
+  border-color:whitesmoke;
+  margin-top:0px;
+  padding-top:0px;
+  height: 20px;
+}
