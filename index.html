@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <img id="resultImage"/>
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
   <title> Sunny Angel </title>
 </head>
 <body> 
 
-
+<span>Location: <input type="text" id="location" placeholder="pick a place"></span>
+  <button onclick="sonify()">sonify</button>
+  <button onclick="stop()">stop</button>
+  <p id = "info">
+    Search for a location to "hear" and "see" it's weather.
+  </p>
 
 </body>
 </html>
